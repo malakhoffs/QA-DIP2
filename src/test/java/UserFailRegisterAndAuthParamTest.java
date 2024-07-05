@@ -10,10 +10,10 @@ import steps.UserAuthSteps;
 import static org.hamcrest.CoreMatchers.is;
 
 @RunWith (Parameterized.class)
-public class UserFailRegisterAndAuthParamTest extends Hooks {
-    String email;
-    String password;
-    String name;
+public class UserFailRegisterAndAuthParamTest extends BaseTest {
+    private final String email;
+    private final String password;
+    private final String name;
 
     @Parameterized.Parameters(name = "{index} Value = {0}")
     public static Object[][] getData() {

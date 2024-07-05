@@ -10,10 +10,10 @@ import steps.UserAuthSteps;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
-public class MainUserTest extends Hooks {
+public class MainUserTest extends BaseTest {
 
     UserRequestData userRequestData;
-    String accessToken;
+    private String accessToken;
 
     @Before
     public void userDataSetUp() {

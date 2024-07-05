@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import org.junit.Before;
 import static data.Constants.BASEURL;
 
-public class Hooks {
+public class BaseTest {
 
     @Before
     public void setUp() {

@@ -13,11 +13,11 @@ import steps.OrderSteps;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class OrderTest extends Hooks {
+public class OrderTest extends BaseTest {
 
-    Ingredients ingredients;
+    private Ingredients ingredients;
     UserRequestData userRequestData;
-    String accessToken;
+    private String accessToken;
 
     @Before
     public void userDataSetUp() {
